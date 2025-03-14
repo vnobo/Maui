@@ -57,13 +57,10 @@
 
     <!-- Custom Fonts -->
     <MauiFont Include="Resources\Fonts\*" />
-    <MauiFont Include="Resources\Fonts\LXGWWenKai-Bold\*" />
+    
     <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <MauiCss Remove="Resources\Fonts\LXGWWenKai-Bold\lxgwwenkai.css" />
+    
   </ItemGroup>
 
   <ItemGroup>
@@ -71,6 +68,7 @@
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="CommunityToolkit.Maui" Version="11.1.0" />
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="9.0.3" />
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.1.11" />
     <PackageReference Include="Syncfusion.Maui.Toolkit" Version="1.0.4" />
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.50" />
   </ItemGroup>
