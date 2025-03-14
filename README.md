@@ -22,8 +22,6 @@ This project demonstrates building cross-platform applications using .NET MAUI w
 - Android SDK (for Android development)
 - Xcode 14+ (for iOS/macOS development)
 
-## Project Structure | 项目结构
-
 ## Getting Started | 开始使用
 
 1. Clone the repository
