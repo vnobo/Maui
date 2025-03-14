@@ -19,15 +19,10 @@ public static class MauiProgram
             })
             .ConfigureFonts(fonts =>
             {
-                fonts.AddFont("lxgwwenkai.css", "LXGW WenKai");
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 fonts.AddFont("SegoeUI-Semibold.ttf", "SegoeSemibold");
                 fonts.AddFont("FluentSystemIcons-Regular.ttf", FluentUI.FontFamily);
-                foreach (var f in fonts)
-                {
-                    Debug.WriteLine($"Font: {f.Filename} / {f.Alias}");
-                }
             });
 
 #if DEBUG
