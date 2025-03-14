@@ -1,7 +1,6 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Toolkit.Hosting;
-using System.Diagnostics;
 
 namespace MauiDemo;
 
@@ -19,6 +18,7 @@ public static class MauiProgram
             })
             .ConfigureFonts(fonts =>
             {
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 fonts.AddFont("SegoeUI-Semibold.ttf", "SegoeSemibold");
